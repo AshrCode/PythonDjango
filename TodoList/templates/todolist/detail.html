@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>{{ list_item.title }}</h1>
+<h3>Status : {{ list_item.status }}</h3>
+{% if list_item.id == 2 %}
+<span style="color: green">True!</span>
+    {% else %}
+    <span style="color: red">False!</span>
+{% endif %}
+</body>
+</html>

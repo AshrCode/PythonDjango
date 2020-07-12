@@ -1,3 +1,3 @@
 ﻿# Python Django
 
-A practice project!
+A practice project!!
